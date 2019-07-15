@@ -1,7 +1,28 @@
+" --------------------------
+" -         vimrc          - 
+" - last updated 7/15/2019 -
+" --------------------------
+
 " -------------------------
-" -        vimrc          - 
-" - last updated 7/9/2019 -
+"       Plugins used
 " -------------------------
+" * command-T
+" * gruvbox
+" * indentLine
+" * nerdtree
+" * supertab
+" * syntastic
+" * tagbar
+" * taskwiki
+" * vim-airline
+" * vim-flake8
+" * vim-table-mode
+" * vim-taskwarrior
+" * vimwiki
+"
+" ***COLOR SCHEME***
+" * jellybeans.vim
+
 
 execute pathogen#infect()
 filetype plugin indent on

@@ -21,15 +21,16 @@
 " * vimwiki
 "
 " ***COLOR SCHEME***
-" * jellybeans.vim
+" * Alduin 
 
 
 execute pathogen#infect()
 filetype plugin indent on
+set t_Co=256
 
 " Enable syntax highlighting.
 syntax on
-colorscheme jellybeans 
+colorscheme alduin 
 
 set number
 
@@ -154,6 +155,12 @@ let g:syntastic_yaml_checkers = ['yamllint']
 let g:syntastic_python_checkers = ['flake8']
 let g:syntastic_python_flake8_args='--ignore=E501,E128,E127,E403,E131,E122,E123,E999'
 
+" set syntax highlighting for Jenkinsfile
+let file_name = expand('%:t:r')
+if file_name == "Jenkinsfile"
+  :set syntax=groovy
+endif
+
 
 " -------------------
 " vim-flake8 Settings
@@ -185,6 +192,17 @@ let g:CommandTTraverseSCM='pwd'
 " tell command-t to ignore certain directories
 let g:CommandTWildIgnore=&wildignore . ",bower_components,node_modules,venv,build,*.pyc"
 
+
+" --------------------
+" Vim-Airline settings
+" --------------------
+
+" add smart tab line
+let g:airline#extensions#tabline#enabled = 1
+
+" define separator edges
+" let g:airline#extensions#tabline#left_sep = ' '
+" let g:airline#extensions#tabline#left_alt_sep = '>'
 
 " ---------------------
 " Other plugin settings

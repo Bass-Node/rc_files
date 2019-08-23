@@ -6,19 +6,19 @@
 " -------------------------
 "       Plugins used
 " -------------------------
-" * command-T
-" * gruvbox
-" * indentLine
-" * nerdtree
-" * supertab
-" * syntastic
-" * tagbar
-" * taskwiki
-" * vim-airline
-" * vim-flake8
-" * vim-table-mode
-" * vim-taskwarrior
-" * vimwiki
+" * command-T       <https://github.com/wincent/command-t>
+" * gruvbox         <https://github.com/morhetz/gruvbox>
+" * indentLine      <https://github.com/Yggdroot/indentLine>
+" * nerdtree        <https://github.com/scrooloose/nerdtree>
+" * supertab        <https://github.com/ervandew/supertab>
+" * syntastic       <https://github.com/vim-syntastic/syntastic>
+" * tagbar          <https://github.com/majutsushi/tagbar>
+" * taskwiki        <https://github.com/tbabej/taskwiki>
+" * vim-airline     <https://github.com/vim-airline/vim-airline>
+" * vim-flake8      <https://github.com/nvie/vim-flake8>
+" * vim-table-mode  <https://github.com/dhruvasagar/vim-table-mode>
+" * vim-taskwarrior <https://github.com/blindFS/vim-taskwarrior>
+" * vimwiki         <https://github.com/vimwiki/vimwiki>
 "
 " ***COLOR SCHEME***
 " * Alduin 

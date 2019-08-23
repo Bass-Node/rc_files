@@ -21,7 +21,7 @@
 " * vimwiki         <https://github.com/vimwiki/vimwiki>
 "
 " ***COLOR SCHEME***
-" * Alduin 
+" * Alduin          <https://github.com/AlessandroYorba/Alduin>
 
 
 execute pathogen#infect()
